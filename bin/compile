@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "-----> Installing SQLite3"
+
+apt-get install -yy libsqlite3-0 libsqlite3-dev
