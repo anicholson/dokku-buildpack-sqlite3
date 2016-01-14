@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -f $1/db/production.sqlite3 ]; then
+  echo "SQLite3"
+  exit 0
+else
+  exit 1
+fi
